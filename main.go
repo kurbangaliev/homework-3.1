@@ -33,6 +33,7 @@ func main() {
 	fmt.Println("copy slice array...")
 	sliceCopy := make([]int, len(numbers))
 	copy(sliceCopy, numbers[:])
-	fmt.Println("sorted numbers:", sortAsc(sliceCopy))
+	fmt.Println("Result:")
 	fmt.Println("original numbers:", numbers)
+	fmt.Println("sorted numbers:", sortAsc(sliceCopy))
 }
